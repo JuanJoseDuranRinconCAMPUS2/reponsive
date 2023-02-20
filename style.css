@@ -1,0 +1,41 @@
+body{
+    background-color:antiquewhite;
+}
+
+h1{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    color:blueviolet;
+}
+
+.c1 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+.c2 {
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+  }
+
+.c3 {
+    width: 200px;
+    height: 300px;
+    object-fit: fill;
+  }
+
+.c4 {
+    width: 200px;
+    height: 300px;
+    object-fit: none;
+  }
+
+.c5 {
+    width: 200px;
+    height: 300px;
+    object-fit: scale-down;
+  }
